@@ -24,7 +24,8 @@
     <router-link to="/EventChange">v-change</router-link> |
     <router-link to="/EventKey">v-key</router-link> |
     <router-link to="/DataComputed">computed</router-link> |
-    <router-link to="/DataWatch">watch</router-link>
+    <router-link to="/DataWatch">watch</router-link> |
+    <router-link to="/dataBindingList2">List2</router-link>
 
   </nav>
   <router-view/>

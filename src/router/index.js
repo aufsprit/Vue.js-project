@@ -22,7 +22,7 @@ import EventChange from '../views/EventChange.vue'
 import EventKey from '../views/EventKey.vue'
 import DataComputed from '../views/DataComputed.vue'
 import DataWatch from '../views/DataWatch.vue'
-
+import DataBindingList2 from '../views/DataBindingList2'
 
 const routes = [
   {
@@ -147,11 +147,12 @@ const routes = [
     path: '/dataWatch',
     name: 'DataWatch',
     component: DataWatch
+  },
+  {
+    path: '/dataBindingList2',
+    name: 'DataBindingList2',
+    component: DataBindingList2
   }
-
-
-
-
 
 ]
 
