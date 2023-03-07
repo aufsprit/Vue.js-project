@@ -25,7 +25,17 @@
     <router-link to="/EventKey">v-key</router-link> |
     <router-link to="/DataComputed">computed</router-link> |
     <router-link to="/DataWatch">watch</router-link> |
-    <router-link to="/dataBindingList2">List2</router-link>
+    <router-link to="/dataBindingList2">List2</router-link> |
+    <router-link to="/NestedComponent">Nested</router-link>
+    <br>
+    <router-link to="/ParentComponent">child-parent</router-link> |
+    <router-link to="/ParentComponent2">child-parent2</router-link> |
+    <router-link to="/ParentComponent3">child-parent3</router-link> |
+    <router-link to="/ParentComponent4">child-parent4</router-link> |
+    <router-link to="/ParentComponent5">child-parent5</router-link>
+    <br>
+    <router-link to="/SlotUseModalLayout">slot</router-link> |
+    <router-link to="/ProvideInject">Provide-Inject</router-link>
 
   </nav>
   <router-view/>

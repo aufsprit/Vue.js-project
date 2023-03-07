@@ -23,6 +23,14 @@ import EventKey from '../views/EventKey.vue'
 import DataComputed from '../views/DataComputed.vue'
 import DataWatch from '../views/DataWatch.vue'
 import DataBindingList2 from '../views/DataBindingList2'
+import NestedComponent from '../views/NestedComponent'
+import ParentComponent from '../views/ParentComponent'
+import ParentComponent2 from '../views/ParentComponent2'
+import ParentComponent3 from '../views/ParentComponent3'
+import ParentComponent4 from '../views/ParentComponent4'
+import ParentComponent5 from '../views/ParentComponent5'
+import SlotUseModalLayout from '../views/SlotUseModalLayout'
+import ProvideInject from '../views/ProvideInject'
 
 const routes = [
   {
@@ -152,7 +160,48 @@ const routes = [
     path: '/dataBindingList2',
     name: 'DataBindingList2',
     component: DataBindingList2
+  },
+  {
+    path: '/NestedComponent',
+    name: 'NestedCOmponent',
+    component: NestedComponent
+  },
+  {
+    path: '/ParentComponent',
+    name: 'ParentComponent',
+    component: ParentComponent
+  },
+  {
+    path: '/ParentComponent2',
+    name: 'ParentComponent2',
+    component: ParentComponent2
+  },
+  {
+    path: '/ParentComponent3',
+    name: 'ParentComponent3',
+    component: ParentComponent3
+  },
+  {
+    path: '/ParentComponent4',
+    name: 'ParentComponent4',
+    component: ParentComponent4
+  },
+  {
+    path: '/ParentComponent5',
+    name: 'ParentComponent5',
+    component: ParentComponent5
+  },
+  {
+    path: '/SlotUseModalLayout',
+    name: 'SlotUseModalLayout',
+    component: SlotUseModalLayout
+  },
+  {
+    path: '/ProvideInject',
+    name: 'ProvideInject',
+    component: ProvideInject
   }
+
 
 ]
 
