@@ -31,6 +31,14 @@ import ParentComponent4 from '../views/ParentComponent4'
 import ParentComponent5 from '../views/ParentComponent5'
 import SlotUseModalLayout from '../views/SlotUseModalLayout'
 import ProvideInject from '../views/ProvideInject'
+import Calculator from '../views/Calculator'
+import CompositionAPI from '../views/CompositionAPI'
+import CompositionAPI2 from '../views/CompositionAPI2'
+import CompositionAPI3 from '../views/CompositionAPI3'
+import CompositionAPI4 from '../views/CompositionAPI4'
+import CompositionAPIProvide from '../views/CompositionAPIProvide'
+import CustomDirective from '../views/CustomDirective'
+import MyPlugins from '../views/MyPlugins'
 
 const routes = [
   {
@@ -200,6 +208,46 @@ const routes = [
     path: '/ProvideInject',
     name: 'ProvideInject',
     component: ProvideInject
+  },
+  {
+    path: '/Calculator',
+    name: 'Calculator',
+    component: Calculator
+  },
+  {
+    path: '/CompositionAPI',
+    name: 'CompositionAPI',
+    component: CompositionAPI
+  },
+  {
+    path: '/CompositionAPI2',
+    name: 'CompositionAPI2',
+    component: CompositionAPI2
+  },
+  {
+    path: '/CompositionAPI3',
+    name: 'CompositionAPI3',
+    component: CompositionAPI3
+  },
+  {
+    path: '/CompositionAPI4',
+    name: 'CompositionAPI4',
+    component: CompositionAPI4
+  },
+  {
+    path: '/CompositionAPIProvide',
+    name: 'CompositionAPIProvide',
+    component: CompositionAPIProvide
+  },
+  {
+    path: '/CustomDirective',
+    name: 'CustomDirective',
+    component: CustomDirective
+  },
+  {
+    path: '/MyPlugins',
+    name: 'MyPlugins',
+    component: MyPlugins
   }
 
 
