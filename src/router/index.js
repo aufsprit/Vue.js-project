@@ -39,6 +39,7 @@ import CompositionAPI4 from '../views/CompositionAPI4'
 import CompositionAPIProvide from '../views/CompositionAPIProvide'
 import CustomDirective from '../views/CustomDirective'
 import MyPlugins from '../views/MyPlugins'
+import StoreAccess from '../views/StoreAccess'
 
 const routes = [
   {
@@ -248,6 +249,11 @@ const routes = [
     path: '/MyPlugins',
     name: 'MyPlugins',
     component: MyPlugins
+  },
+  {
+    path: '/StoreAccess',
+    name: 'StoreAccess',
+    component: StoreAccess
   }
 
 

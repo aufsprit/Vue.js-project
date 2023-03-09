@@ -44,7 +44,8 @@
     <router-link to="/CompositionAPI4">CompositionAPI4</router-link> |
     <router-link to="/CompositionAPIProvide">CompositionProvide</router-link> |
     <router-link to="/CustomDirective">Directive</router-link> |
-    <router-link to="/MyPlugins">Plugin</router-link>
+    <router-link to="/MyPlugins">Plugin</router-link> |
+    <router-link to="/StoreAccess">vuex</router-link> 
 
   </nav>
   <router-view/>
