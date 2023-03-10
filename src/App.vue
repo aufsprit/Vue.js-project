@@ -47,7 +47,8 @@
     <router-link to="/MyPlugins">Plugin</router-link> |
     <router-link to="/StoreAccess">vuex</router-link>
     <br>
-    <router-link to="/login">kakao-login</router-link>
+    <router-link to="/login">kakao-login</router-link> |
+    <router-link to="/naverlogin">naver-login</router-link>
 
   </nav>
   <router-view/>
