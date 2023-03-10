@@ -40,6 +40,7 @@ import CompositionAPIProvide from '../views/CompositionAPIProvide'
 import CustomDirective from '../views/CustomDirective'
 import MyPlugins from '../views/MyPlugins'
 import StoreAccess from '../views/StoreAccess'
+import KakaoLogin from '../views/KakaoLogin.vue'
 
 const routes = [
   {
@@ -254,6 +255,11 @@ const routes = [
     path: '/StoreAccess',
     name: 'StoreAccess',
     component: StoreAccess
+  },
+  {
+    path: '/login',
+    name: 'KakoLogin',
+    component: KakaoLogin
   }
 
 
